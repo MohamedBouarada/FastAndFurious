@@ -41,10 +41,12 @@ Install dependencies :
 $ npm install
 ```
 Create and Configure `.env` file to connect to a database and to use the email service:
+```bash
         - databaseUri (the path to the MongoDB Cluster)
         - JWT_SECRET (the secret key to create JWT)
         - MAIL_USER (the email address for this event : email address with which we send registration emails)
         - MAIL_PASSWORD (the password for this email)
+```
 
 Running the app:
 ```bash
